@@ -1,0 +1,552 @@
+[
+  {
+    "key": "cmd+1",
+    "command": "workbench.action.openEditorAtIndex1"
+  },
+  {
+    "key": "ctrl+1",
+    "command": "-workbench.action.openEditorAtIndex1"
+  },
+  {
+    "key": "cmd+2",
+    "command": "workbench.action.openEditorAtIndex2"
+  },
+  {
+    "key": "ctrl+2",
+    "command": "-workbench.action.openEditorAtIndex2"
+  },
+  {
+    "key": "cmd+3",
+    "command": "workbench.action.openEditorAtIndex3"
+  },
+  {
+    "key": "ctrl+3",
+    "command": "-workbench.action.openEditorAtIndex3"
+  },
+  {
+    "key": "cmd+4",
+    "command": "workbench.action.openEditorAtIndex4"
+  },
+  {
+    "key": "ctrl+4",
+    "command": "-workbench.action.openEditorAtIndex4"
+  },
+  {
+    "key": "cmd+5",
+    "command": "workbench.action.openEditorAtIndex5"
+  },
+  {
+    "key": "ctrl+5",
+    "command": "-workbench.action.openEditorAtIndex5"
+  },
+  {
+    "key": "cmd+6",
+    "command": "workbench.action.openEditorAtIndex6"
+  },
+  {
+    "key": "ctrl+6",
+    "command": "-workbench.action.openEditorAtIndex6"
+  },
+  {
+    "key": "cmd+7",
+    "command": "workbench.action.openEditorAtIndex7"
+  },
+  {
+    "key": "ctrl+7",
+    "command": "-workbench.action.openEditorAtIndex7"
+  },
+  {
+    "key": "cmd+8",
+    "command": "workbench.action.openEditorAtIndex8"
+  },
+  {
+    "key": "ctrl+8",
+    "command": "-workbench.action.openEditorAtIndex8"
+  },
+  {
+    "key": "cmd+9",
+    "command": "workbench.action.openEditorAtIndex9"
+  },
+  {
+    "key": "ctrl+9",
+    "command": "-workbench.action.openEditorAtIndex9"
+  },
+  {
+    "key": "ctrl+1",
+    "command": "workbench.action.focusFirstEditorGroup"
+  },
+  {
+    "key": "cmd+1",
+    "command": "-workbench.action.focusFirstEditorGroup"
+  },
+  {
+    "key": "ctrl+3",
+    "command": "workbench.action.focusThirdEditorGroup"
+  },
+  {
+    "key": "cmd+3",
+    "command": "-workbench.action.focusThirdEditorGroup"
+  },
+  {
+    "key": "ctrl+6",
+    "command": "workbench.action.focusSixthEditorGroup"
+  },
+  {
+    "key": "cmd+6",
+    "command": "-workbench.action.focusSixthEditorGroup"
+  },
+  {
+    "key": "ctrl+7",
+    "command": "workbench.action.focusSeventhEditorGroup"
+  },
+  {
+    "key": "cmd+7",
+    "command": "-workbench.action.focusSeventhEditorGroup"
+  },
+  {
+    "key": "ctrl+2",
+    "command": "workbench.action.focusSecondEditorGroup"
+  },
+  {
+    "key": "cmd+2",
+    "command": "-workbench.action.focusSecondEditorGroup"
+  },
+  {
+    "key": "ctrl+4",
+    "command": "workbench.action.focusFourthEditorGroup"
+  },
+  {
+    "key": "cmd+4",
+    "command": "-workbench.action.focusFourthEditorGroup"
+  },
+  {
+    "key": "ctrl+5",
+    "command": "workbench.action.focusFifthEditorGroup"
+  },
+  {
+    "key": "cmd+5",
+    "command": "-workbench.action.focusFifthEditorGroup"
+  },
+  {
+    "key": "ctrl+8",
+    "command": "workbench.action.focusEighthEditorGroup"
+  },
+  {
+    "key": "cmd+8",
+    "command": "-workbench.action.focusEighthEditorGroup"
+  },
+  {
+    "key": "alt+right",
+    "command": "-workbench.action.navigateForward"
+  },
+  {
+    "key": "shift+alt+right",
+    "command": "-editor.action.smartSelect.expand",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "alt+right",
+    "command": "-breadcrumbs.focusNext",
+    "when": "breadcrumbsActive && breadcrumbsVisible"
+  },
+  {
+    "key": "alt+right",
+    "command": "-breadcrumbs.focusNextWithPicker",
+    "when": "breadcrumbsActive && breadcrumbsVisible && listFocus && !inputFocus"
+  },
+  {
+    "key": "alt+left",
+    "command": "-workbench.action.navigateBack"
+  },
+  {
+    "key": "shift+alt+left",
+    "command": "-editor.action.smartSelect.shrink",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+alt+left",
+    "command": "-workbench.action.moveEditorToPreviousGroup"
+  },
+  {
+    "key": "alt+cmd+left",
+    "command": "-workbench.action.previousEditor"
+  },
+  {
+    "key": "alt+left",
+    "command": "-breadcrumbs.focusPrevious",
+    "when": "breadcrumbsActive && breadcrumbsVisible"
+  },
+  {
+    "key": "alt+left",
+    "command": "-breadcrumbs.focusPreviousWithPicker",
+    "when": "breadcrumbsActive && breadcrumbsVisible && listFocus && !inputFocus"
+  },
+  {
+    "key": "shift+alt+cmd+pageup",
+    "command": "-cursorColumnSelectPageUp",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "shift+alt+cmd+pagedown",
+    "command": "-cursorColumnSelectPageDown",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+alt+cmd+pageup",
+    "command": "cursorColumnSelectUp",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "shift+alt+cmd+up",
+    "command": "-cursorColumnSelectUp",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "shift+cmd+up",
+    "command": "cursorColumnSelectUp",
+    "when": "editorColumnSelection && textInputFocus"
+  },
+  {
+    "key": "shift+up",
+    "command": "-cursorColumnSelectUp",
+    "when": "editorColumnSelection && textInputFocus"
+  },
+  {
+    "key": "ctrl+shift+alt+up",
+    "command": "-cursorColumnSelectUp",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+alt+cmd+pagedown",
+    "command": "cursorColumnSelectDown",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "shift+alt+cmd+down",
+    "command": "-cursorColumnSelectDown",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "shift+cmd+down",
+    "command": "cursorColumnSelectDown",
+    "when": "editorColumnSelection && textInputFocus"
+  },
+  {
+    "key": "shift+down",
+    "command": "-cursorColumnSelectDown",
+    "when": "editorColumnSelection && textInputFocus"
+  },
+  {
+    "key": "ctrl+shift+alt+down",
+    "command": "-cursorColumnSelectDown",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "cmd+home",
+    "command": "cursorHome",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "cmd+left",
+    "command": "-cursorHome",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "cmd+end",
+    "command": "cursorEnd",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "cmd+right",
+    "command": "-cursorEnd",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+alt+cmd+home",
+    "command": "cursorWordPartLeftSelect",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+shift+alt+left",
+    "command": "-cursorWordPartLeftSelect",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+alt+cmd+end",
+    "command": "cursorWordPartRightSelect",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+shift+alt+right",
+    "command": "-cursorWordPartRightSelect",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "shift+cmd+up",
+    "command": "-cursorTopSelect",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "shift+cmd+down",
+    "command": "-cursorBottomSelect",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+shift+alt+pageup",
+    "command": "-cursorColumnSelectPageUp",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "shift+cmd+down",
+    "command": "cursorDownSelect",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+shift+down",
+    "command": "-cursorDownSelect",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "shift+cmd+up",
+    "command": "cursorUpSelect",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+shift+up",
+    "command": "-cursorUpSelect",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "shift+alt+left",
+    "command": "cursorColumnSelectLeft",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "shift+alt+cmd+left",
+    "command": "-cursorColumnSelectLeft",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "shift+cmd+right",
+    "command": "cursorColumnSelectRight",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "shift+alt+cmd+right",
+    "command": "-cursorColumnSelectRight",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "shift+cmd+end",
+    "command": "cursorEndSelect",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "shift+cmd+right",
+    "command": "-cursorEndSelect",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "shift+cmd+home",
+    "command": "cursorHomeSelect",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "shift+cmd+left",
+    "command": "-cursorHomeSelect",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "alt+cmd+up",
+    "command": "-editor.action.insertCursorAbove",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "alt+cmd+down",
+    "command": "-editor.action.insertCursorBelow",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+alt+down",
+    "command": "-editor.action.insertCursorBelow",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+alt+up",
+    "command": "-editor.action.insertCursorAbove",
+    "when": "editorTextFocus"
+  },
+
+  {
+    "key": "shift+cmd+left",
+    "command": "-cursorWordPartLeftSelect",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "shift+cmd+right",
+    "command": "-cursorWordPartRightSelect",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+alt+right",
+    "command": "-workbench.action.moveEditorToNextGroup"
+  },
+  {
+    "key": "ctrl+cmd+right",
+    "command": "-workbench.action.moveEditorToNextGroup"
+  },
+  {
+    "key": "cmd+left",
+    "command": "-cursorWordLeft",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "cmd+right",
+    "command": "-cursorWordRight",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "alt+cmd+up",
+    "command": "editor.action.copyLinesUpAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "shift+alt+up",
+    "command": "-editor.action.copyLinesUpAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "alt+cmd+down",
+    "command": "editor.action.copyLinesDownAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "shift+alt+down",
+    "command": "-editor.action.copyLinesDownAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "shift+home",
+    "command": "-cursorHomeSelect",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "shift+end",
+    "command": "-cursorEndSelect",
+    "when": "textInputFocus"
+  },
+
+  {
+    "key": "shift+home",
+    "command": "cursorUpSelect",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "cmd+pagedown",
+    "command": "cursorDownSelect",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "cmd+pageup",
+    "command": "cursorUpSelect",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "shift+cmd+pageup",
+    "command": "cursorUpSelect",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "shift+cmd+pagedown",
+    "command": "cursorDownSelect",
+    "when": "editorTextFocus"
+  },
+
+  {
+    "key": "shift+cmd+home",
+    "command": "cursorWordPartLeftSelect",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "shift+cmd+end",
+    "command": "cursorWordPartRightSelect",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "cmd+down",
+    "command": "-cursorBottom",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "cmd+up",
+    "command": "-cursorTop",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "cmd+down",
+    "command": "editor.action.moveLinesDownAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "alt+down",
+    "command": "-editor.action.moveLinesDownAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "cmd+up",
+    "command": "editor.action.moveLinesUpAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "alt+up",
+    "command": "-editor.action.moveLinesUpAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "shift+cmd+left",
+    "command": "cursorWordLeftSelect",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "shift+alt+left",
+    "command": "-cursorWordLeftSelect",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "shift+cmd+right",
+    "command": "cursorWordRightSelect"
+  },
+  {
+    "key": "shift+alt+right",
+    "command": "cursorColumnSelectRight",
+    "when": "editorColumnSelection && textInputFocus"
+  },
+  {
+    "key": "shift+right",
+    "command": "-cursorColumnSelectRight",
+    "when": "editorColumnSelection && textInputFocus"
+  },
+  {
+    "key": "cmd+right",
+    "command": "cursorWordRight"
+  },
+  {
+    "key": "cmd+home",
+    "command": "cursorWordStartLeft"
+  },
+  {
+    "key": "cmd+end",
+    "command": "cursorWordEndRight",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "alt+right",
+    "command": "-cursorWordEndRight",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "home",
+    "command": "-cursorHome",
+    "when": "textInputFocus"
+  }
+]
