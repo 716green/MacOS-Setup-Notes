@@ -1,6 +1,6 @@
 <p align="center">
   <a href="" rel="noopener">
- <img width=300px src="./WindowsMacLinux.jpeg" alt="Project logo"></a>
+ <img src="./WindowsMacLinux.png" alt="Project logo"></a>
 </p>
 
 <h3 align="center">Setup 🍏 MacOS + 🆚 VS Code Keybindings</h3>
