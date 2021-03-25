@@ -47,6 +47,7 @@ rust-lang.rust
 sdras.vue-vscode-snippets
 serayuzgur.crates
 sidthesloth.html5-boilerplate
+smcpeak.default-keys-windows
 thiscodeworks.savecode
 thomascsd.vscode-readme-pattern
 toba.vsfire
