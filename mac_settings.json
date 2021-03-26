@@ -26,9 +26,6 @@
     "[x]"
   ],
   "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
-  "[vue]": {
-    "editor.defaultFormatter": "octref.vetur"
-  },
   "workbench.iconTheme": "vscode-icons",
   "go.toolsGopath": "/Users/bob/go/",
   "go.gopath": "/Users/bob/go/",
@@ -54,5 +51,9 @@
     "vue": "html",
     "vue-html": "html",
     "javascript": "javascript"
-  }
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "prettier.vueIndentScriptAndStyle": true,
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": true
 }
