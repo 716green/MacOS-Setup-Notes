@@ -5,7 +5,6 @@
   "terminal.external.osxExec": "iTerm.app",
   "terminal.integrated.shell.osx": "/bin/zsh",
   "terminal.integrated.fontFamily": "Fira Code, MesloLGS NF, Hack Nerd Font",
-  "terminal.integrated.macOptionClickForcesSelection": true,
   "terminal.integrated.macOptionIsMeta": true,
   "terminal.integrated.scrollback": 2000,
   "terminal.integrated.fontSize": 13,
@@ -16,30 +15,29 @@
   "editor.fontSize": 14,
   "editor.fontWeight": "500",
   "editor.suggestSelection": "first",
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "todo-tree.tree.showScanModeButton": false,
+  "todo-tree.general.tags": [
+    "BUG",
+    "HACK",
+    "FIXME",
+    "TODO",
+    "XXX",
+    "[ ]",
+    "[x]"
+  ],
+  "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
   "[vue]": {
     "editor.defaultFormatter": "octref.vetur"
   },
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.formatOnSave": true,
   "workbench.iconTheme": "vscode-icons",
   "go.toolsGopath": "/Users/bob/go/",
   "go.gopath": "/Users/bob/go/",
   "go.useLanguageServer": true,
   "go.formatTool": "gofmt",
-  "workbench.colorCustomizations": {
-    "[Omni]": {
-      "terminal.selectionBackground": "#00f7ff",
-      "terminal.foreground": "#fcf"
-    }
-  },
   "workbench.colorTheme": "SpunBeat Violet Cream",
   "window.zoomLevel": 0.1,
   "html.format.wrapLineLength": 0,
   "html.format.contentUnformatted": "pre,code,textarea",
-  "vetur.experimental.templateInterpolationService": true,
-  "vetur.validation.templateProps": true,
   "javascript.format.insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces": true,
   "typescript.format.insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces": true,
   "template-string-converter.autoRemoveTemplateString": true,
@@ -50,5 +48,11 @@
   "typescript.preferences.quoteStyle": "single",
   "javascript.preferences.quoteStyle": "single",
   "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": true,
-  "prettier.singleQuote": true
+  "prettier.singleQuote": true,
+  "vetur.experimental.templateInterpolationService": true,
+  "emmet.includeLanguages": {
+    "vue": "html",
+    "vue-html": "html",
+    "javascript": "javascript"
+  }
 }
